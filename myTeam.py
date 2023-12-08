@@ -985,7 +985,7 @@ class FricandoAmbBolets(AgentLearnWeights):
         elif self.mode=='start':
             return {'distance_to_capsule': -1}
         elif self.mode=='patrol':
-            return {'distance_to_food': 0,'distance_to_capsule':-1,'distance_to_halfway':-0.0}
+            return {'distance_to_food': -0.01,'distance_to_capsule':-1,'distance_to_halfway':-0.0}
 
 
 
